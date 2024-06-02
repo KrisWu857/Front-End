@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*控制header的高度*/
+.header {
+    width: 100%;
+    height: 115px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*调整header右字体的样式*/
+.header_right {
+    font-size: 18px;
+    color: #72dcdc;
+}
+
+/*中间的背景图片以及子类的排列*/
+.middle {
+    width: 100%;
+    height: 560px;
+    background: url("../images/loginAdvertisement.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login_box {
+    width: 353px;
+    height: 450px;
+    background-color: white;
+    margin-right: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*底部的div颜色与文字*/
+.bottom {
+    width: 100%;
+    height: 54px;
+    background-color: #e2f4f4;
+}
+
+/*底部中的文字的样式*/
+.font {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-size: 11px;
+    line-height: 54px;
+    color: #625e5e;
+}
+
+.login_header {
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #1ab9c7;
+}
+
+hr {
+    width: 89.5%;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-top: 15px;
+    height: 1px;
+    color: #dadada;
+
+}
+
+.input_info {
+    margin-left: 20px;
+
+}
+
+.input_info input {
+    background-color: #d2d2d2;
+    width: 302px;
+    height: 32px;
+    border: white;
+}
+
+#i1 {
+    margin-bottom: 10px;
+}
+
+.yesOrNo {
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+    justify-content: space-between;
+
+}
+
+.forget {
+    margin-right: 57px;
+}
+
+.login_button {
+    width: 250px;
+    /*margin: 0 auto;*/
+}
+
+.login_button button {
+    width: 300px;
+    height: 34px;
+    margin-bottom: 25px;
+    margin-left: 24px;
+    color: white;
+    background-color: #78dada;
+    border: white;
+}
+
+.bottom_info {
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.bottom_info_left {
+    color: #1AB9C7;
+}
+
+.bottom_info_right1 {
+    margin-left: 96px;
+}
+
+.bottom_info_right2 {
+    color: #1AB9C7;
+}
